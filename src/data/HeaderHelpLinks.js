@@ -17,6 +17,6 @@ export const headerHelpLinks = [{
     title: "What is Lay Betting?",
     url: 'https://help.smarkets.com/hc/en-gb/articles/115003374849-What-is-lay-betting-on-an-exchange-'
 }, {
-    title: "HBetting Strategieselp",
+    title: "Betting Strategies",
     url: 'https://help.smarkets.com/hc/en-gb/categories/360001487832-Education'
 }]
