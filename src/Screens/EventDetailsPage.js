@@ -29,7 +29,7 @@ export const EventDetailsPage = () => {
         <>
             <Breadcrumb separator=">" className="mb2">
                 <Breadcrumb.Item>Home</Breadcrumb.Item>
-                <Breadcrumb.Item href={`/${currentEvent.eventType}/events`}>Events</Breadcrumb.Item>
+                <Breadcrumb.Item href={`/${currentEvent.eventType || eventType}/events`}>Events</Breadcrumb.Item>
                 <Breadcrumb.Item>{currentEvent.id}</Breadcrumb.Item>
             </Breadcrumb>
             <Header className="uppercase flex items-center mb2" >
