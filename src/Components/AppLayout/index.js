@@ -18,7 +18,7 @@ export const AppLayout = () => {
     const navigate = useNavigate();
     const location = useLocation();
 
-    const getLeftNavSelection = () => [leftnavLinks.find(nav => location.pathname.includes(nav.url)).url]
+    const getLeftNavSelection = () => [leftnavLinks.find(nav => location.pathname.includes(nav.url))?.url || '/football']
     const handleSelect = (value) => {
         setPopularEvents([]);
         setEventDetails([])
