@@ -1,0 +1,10 @@
+.event-item {
+  padding: 12px 24px;
+  background-color: #0d0d0d;
+  border-bottom: 1px solid #3b3b3b;
+}
+
+.event-item:hover {
+  font-size: 125%;
+  background-color: #1f1f1f;
+}

@@ -1,0 +1,109 @@
+.ant-layout,
+.ant-layout-header {
+  background-color: #0d0d0d;
+}
+.ant-layout-header {
+  padding: 0 24px;
+  height: 52px;
+}
+.ant-layout-sider-children {
+  background-color: rgb(26, 26, 26);
+}
+
+.ant-layout-content {
+  background-color: #000;
+}
+
+.collapsing-icon {
+  color: #00b073;
+}
+
+.searchbox {
+  width: 13rem !important;
+}
+
+.ant-input-group {
+  display: flex;
+}
+
+.ant-input,
+.ant-btn {
+  background: #2e2e2e !important;
+  border: none !important;
+  color: whitesmoke !important;
+  font-size: 12px !important;
+}
+
+.header-button {
+  height: 100%;
+  background: transparent !important;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.header-button-icon {
+  font-size: 150% !important;
+}
+
+.header-button:hover {
+  background: #2e2e2e !important;
+}
+
+.header-button:focus {
+  background: #2e2e2e !important;
+  color: #00b073 !important;
+}
+
+.ant-menu-item:hover {
+  background: rgba(0, 176, 115, 0.8) !important;
+  color: whitesmoke !important;
+}
+
+.ant-menu-item::after {
+  border-right: none !important;
+}
+
+.ant-menu-vertical {
+  border: none;
+}
+
+.ant-menu-item-selected {
+  background: #414141 !important;
+  color: whitesmoke !important;
+}
+
+.ant-popover {
+  min-width: 200px;
+}
+
+.ant-popover-inner {
+  background-color: rgb(26, 26, 26);
+}
+
+.ant-popover-title {
+  font-size: 18px;
+  margin: 0 1.5rem;
+  padding: 16px 0;
+  text-transform: none;
+}
+
+.ant-popover-inner-content {
+  padding: 0;
+}
+
+.ant-collapse {
+  border: none;
+}
+
+.primary-button {
+  background-color: #00b073 !important;
+  border-radius: 2px;
+  color: #fff;
+}
+
+.primary-button:hover {
+  background-color: rgba(0, 176, 115, 0.8) !important;
+}
+
+.signup-button {
+  margin-left: 24px;
+}
