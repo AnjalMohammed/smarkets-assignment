@@ -1,5 +1,5 @@
 import { QuestionCircleOutlined, SettingOutlined } from '@ant-design/icons';
-import { Layout, Popover } from 'antd';
+import { Popover } from 'antd';
 import { useState } from 'react';
 import { LOGO_URL, SIGN_IN_URL, SIGN_UP_URL } from '../../../data/EndPoints';
 import { headerHelpLinks } from '../../../data/HeaderHelpLinks';
@@ -9,13 +9,13 @@ import {
   HeaderButton,
   HeaderSearch,
   HelpLinksMenu,
+  PageHeader,
   SettingsCollapse,
   SettingsMenu,
   SignUpButton,
 } from '../styles';
 import '../styles.css';
 
-const { Header } = Layout;
 const { Panel } = SettingsCollapse;
 
 export const AppHeader = ({ siderWidth, collapsed, setCollapsed }) => {
@@ -57,19 +57,16 @@ export const AppHeader = ({ siderWidth, collapsed, setCollapsed }) => {
   );
 
   return (
-    <Header className="flex items-center justify-between">
+    <PageHeader className="flex items-center justify-between">
       <div className="flex items-center">
-        <div className="flex items-center" style={{ width: siderWidth - 24 }}>
+        <div className="flex items-center" style={{ width: siderWidth }}>
           <CollapsingIcon onClick={() => setCollapsed(!collapsed)} />
-          <img
-            className="pl1"
-            width={100}
-            height={23.06}
-            src={LOGO_URL}
-            alt="site-logo"
-          />
+          <img width={100} height={23.06} src={LOGO_URL} alt="site-logo" />
         </div>
-        <HeaderSearch placeholder="Events, Markets, or Contracts" />
+        <HeaderSearch
+          className="pl2"
+          placeholder="Events, Markets, or Contracts"
+        />
       </div>
       <div className="flex items-center">
         <Popover
@@ -93,6 +90,6 @@ export const AppHeader = ({ siderWidth, collapsed, setCollapsed }) => {
           create account
         </SignUpButton>
       </div>
-    </Header>
+    </PageHeader>
   );
 };

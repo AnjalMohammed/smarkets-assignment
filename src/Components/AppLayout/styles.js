@@ -5,6 +5,7 @@ import { MenuOutlined } from '@ant-design/icons';
 
 export const CollapsingIcon = styled(MenuOutlined)`
   color: #00b073;
+  padding: 0 1.2rem;
 `;
 
 export const HeaderSearch = styled(Input.Search)`
@@ -24,7 +25,7 @@ export const HeaderSearch = styled(Input.Search)`
 `;
 
 export const SignUpButton = styled(PrimaryButton)`
-  margin-left: 24px;
+  margin: 0 1.2rem;
 `;
 
 export const HeaderButton = styled(Button)`
@@ -49,6 +50,11 @@ export const HeaderButton = styled(Button)`
     font-size: 150%;
   }
 `;
+export const PageHeader = styled(Layout.Header)`
+  background-color: #0d0d0d;
+  height: 52px;
+  padding: 0;
+`;
 
 export const ContentLayout = styled(Layout)`
   .ant-layout,
@@ -60,7 +66,8 @@ export const ContentLayout = styled(Layout)`
     height: 52px;
   }
   .ant-layout-sider-children {
-    background-color: rgb(26, 26, 26);
+    background-color: #141414;
+    padding: 1rem 0;
   }
 
   .ant-layout-content {

@@ -56,7 +56,7 @@ export const AppLayout = () => {
           )}
 
           <Layout>
-            <Content className="p3">
+            <Content className="p2">
               <AppRoutes />
             </Content>
           </Layout>
