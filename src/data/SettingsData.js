@@ -1,7 +1,10 @@
-export const settingsData = [{
+export const settingsData = [
+  {
     title: 'Theme',
-    values: ['Dark', 'Light']
-}, {
+    values: ['Dark', 'Light'],
+  },
+  {
     title: 'Odds',
-    values: ['American', 'Decimal', 'Percent']
-}]
+    values: ['American', 'Decimal', 'Percent'],
+  },
+];

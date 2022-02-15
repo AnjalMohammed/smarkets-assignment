@@ -3,9 +3,7 @@ import { EventProvider } from './EventContext';
 import { LoadingProvider } from './LoadingContext';
 
 export const RootProvider = ({ children }) => (
-    <LoadingProvider>
-        <EventProvider>
-            {children}
-        </EventProvider>
-    </LoadingProvider>
-)
+  <LoadingProvider>
+    <EventProvider>{children}</EventProvider>
+  </LoadingProvider>
+);

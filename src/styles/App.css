@@ -1,5 +1,5 @@
 @import "~antd/dist/antd.dark.css";
-@import "./utils/utilities.css";
+@import "../utils/utilities.css";
 
 .ant-spin-dot-item {
   background-color: #00b073 !important;
